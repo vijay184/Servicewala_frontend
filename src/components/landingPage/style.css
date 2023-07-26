@@ -1,0 +1,87 @@
+.lheader{
+    height: 50px;
+    width: 100px;
+    border-color: blue;
+ }
+ .lhead{
+    color: brown;
+ }
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .buttons button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    text-decoration: underline;
+  }
+  
+  .main-content {
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #444;
+  }
+  
+  .items-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .item p {
+    color: #777;
+  }
