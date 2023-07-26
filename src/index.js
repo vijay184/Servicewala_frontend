@@ -6,7 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { Provider } from 'react-redux';
 import store from "./store/index.js";
 
-export const SERVER = "http://localhost:5015";
+export const SERVER = "https://servicewala-backend.onrender.com";
 
 export const Context = createContext({ isAuthenticated: false , isSAuthenticated:false});
 const AppWrapper = () => {
